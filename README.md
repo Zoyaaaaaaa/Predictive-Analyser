@@ -3,6 +3,7 @@
 This repository contains a FastAPI-based web application that allows you to upload a dataset, train a logistic regression model, and make predictions about machine downtime based on temperature and runtime.
 
 ---
+![image](https://github.com/user-attachments/assets/f8f23147-4f17-4a4c-bc13-7ce70bbb1043)
 
 ## Features
 
@@ -148,14 +149,5 @@ Machine_ID,Temperature,Run_Time,Downtime_Flag
   "Confidence": 0.85
 }
 ```
-
----
-
-## Notes
-
-- Ensure the `uploads/` and `models/` directories exist in the root folder.
-- The `dataset.csv` file is provided for initial testing. You can upload your own datasets, provided they follow the required format.
-
----
 
 
